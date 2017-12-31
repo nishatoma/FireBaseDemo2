@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="30dip" />
+            <stroke android:width="1dip" android:color="@color/common_google_signin_btn_text_light" />
+            <gradient android:angle="180" android:startColor="#CEE865" android:centerColor="#FFF97C" android:endColor="#B1FF6F" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="30dip" />
+            <stroke android:width="1dip" android:color="#5e7974" />
+            <gradient android:angle="0" android:startColor="#CEE865" android:centerColor="#FFF97C" android:endColor="#B1FF6F" />
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="30dip" />
+            <stroke android:width="1dip" android:color="#5e7974" />
+            <gradient android:angle="0" android:startColor="#B1FF6F" android:centerColor="#CEE865" android:endColor="#FFF97C" />
+        </shape>
+    </item>
+</selector>
